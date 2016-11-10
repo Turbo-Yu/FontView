@@ -1,0 +1,6 @@
+D:\Project\FontView\project20161110\project20161110\bin\project20161110.dll.config
+D:\Project\FontView\project20161110\project20161110\bin\project20161110.dll
+D:\Project\FontView\project20161110\project20161110\bin\project20161110.pdb
+D:\Project\FontView\project20161110\project20161110\obj\Debug\project20161110.csprojResolveAssemblyReference.cache
+D:\Project\FontView\project20161110\project20161110\obj\Debug\project20161110.dll
+D:\Project\FontView\project20161110\project20161110\obj\Debug\project20161110.pdb
