@@ -1,0 +1,6 @@
+D:\Project\project20161109\project20161109\bin\project20161109.dll.config
+D:\Project\project20161109\project20161109\bin\project20161109.dll
+D:\Project\project20161109\project20161109\bin\project20161109.pdb
+D:\Project\project20161109\project20161109\obj\Debug\project20161109.csprojResolveAssemblyReference.cache
+D:\Project\project20161109\project20161109\obj\Debug\project20161109.dll
+D:\Project\project20161109\project20161109\obj\Debug\project20161109.pdb

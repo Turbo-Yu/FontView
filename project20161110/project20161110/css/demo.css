@@ -1,0 +1,24 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#dbird {
+    position: absolute;
+    width: 206px;
+    height: 121px;
+}
+
+body {
+    overflow: hidden;
+}
+.direction-37 {
+    transform: rotateY(180deg);
+}
+.direction-38 {
+    transform: rotate(-60deg);
+}
+.direction-40 {
+    transform: rotate(60deg);
+}
+
