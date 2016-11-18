@@ -1,0 +1,22 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    width: 150px;
+    height: 300px;
+    border: dashed 2px #0094ff;
+}
+
+#u1 {
+    float: left;
+}
+
+#u2 {
+    float: right;
+}
+li {
+margin:25px 50px;
+}

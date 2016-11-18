@@ -1,0 +1,18 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+#txtTitle {
+    width: 440px;
+    height: 34px;
+    border: solid 1px #ccc;
+}
+
+#dResult {
+    width: 440px;
+    border: solid 1px #ccc;
+    border-top-width: 0px;
+    display: none;
+}

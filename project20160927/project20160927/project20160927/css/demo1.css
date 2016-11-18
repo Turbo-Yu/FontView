@@ -1,0 +1,48 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ig img {
+    width: 200px;
+    position: absolute;
+    padding: 5px;
+    background-color: #ed5c5c;
+    border-radius: 12px;
+}
+
+.ig1 img {
+    top: 100px;
+    left: 100px;
+    transform: rotate(30deg);
+}
+
+.ig2 img {
+    top: 150px;
+    left: 200px;
+    transform: rotate(60deg);
+}
+
+.ig3 img {
+    top: 250px;
+    left: 300px;
+    transform: rotate(-30deg);
+}
+
+.ig4 img {
+    top: 90px;
+    left: 300px;
+    transform: rotate(-40deg);
+}
+
+.ig5 img {
+    top: 250px;
+    left: 400px;
+    transform: rotate(-60deg);
+}
+
+.ig img:hover {
+    transform: rotate(0deg) scale(1.5);
+    transition: transform 1s ease;
+    z-index: 100;
+}

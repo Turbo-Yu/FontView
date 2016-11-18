@@ -1,0 +1,75 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #e5a0a0;
+}
+
+.ig img {
+    display: block;
+    width: 200px;
+    border: solid 5px #fff;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.ig img {
+    position: absolute;
+}
+
+.ig1 img {
+    top: 50px;
+    left: 50px;
+    transform: rotate(30deg);
+}
+
+.ig2 img {
+    top: 100px;
+    left: 150px;
+    transform: rotate(40deg);
+}
+
+.ig3 img {
+    top: 150px;
+    left: 200px;
+    transform: rotate(-40deg);
+}
+
+.ig4 img{
+    top: 250px;
+    left: 250px;
+    transform: rotate(-30deg);
+}
+
+.ig5 img {
+    top: 350px;
+    left: 300px;
+    transform: rotate(-50deg);
+}
+
+.ig6 img {
+    top: 50px;
+    left: 450px;
+    transform: rotate(60deg);
+}
+
+.ig7 img {
+    top: 150px;
+    left: 400px;
+    transform: rotate(-20deg);
+}
+
+.ig8 img {
+    top: 100px;
+    left: 300px;
+    transform: rotate(-60deg);
+}
+
+.ig img:hover {
+    transform: rotate(0deg);
+    z-index: 2;
+    border: solid 5px #ff6a00;
+    transition: transform 0.5s ease;
+}

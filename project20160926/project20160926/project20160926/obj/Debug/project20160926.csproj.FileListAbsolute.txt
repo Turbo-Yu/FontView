@@ -1,0 +1,5 @@
+C:\Users\xujun\Desktop\project20160926\project20160926\bin\project20160926.dll.config
+C:\Users\xujun\Desktop\project20160926\project20160926\bin\project20160926.dll
+C:\Users\xujun\Desktop\project20160926\project20160926\bin\project20160926.pdb
+C:\Users\xujun\Desktop\project20160926\project20160926\obj\Debug\project20160926.dll
+C:\Users\xujun\Desktop\project20160926\project20160926\obj\Debug\project20160926.pdb

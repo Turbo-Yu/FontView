@@ -1,0 +1,17 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+#txtTitle {
+    width: 540px;
+    height: 34px;
+}
+
+#dcon {
+    width: 542px;
+    border: solid 1px #ccc;
+    border-top-width: 0px;
+    display: none;
+}

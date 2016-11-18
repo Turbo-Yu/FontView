@@ -1,0 +1,72 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+a {
+    text-decoration: none;
+}
+
+.proitem {
+    width: 222px;
+    height: 354px;
+    border: solid 1px #ccc;
+    float: left;
+    margin: 5px;
+}
+
+#prolist {
+    width: 750px;
+}
+
+.proprice {
+    width: 222px;
+    text-align: center;
+    color: #f00;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.protitle {
+    width: 222px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+    .protitle a {
+        color: #383636;
+    }
+
+.probtn a {
+    width: 150px;
+    height: 36px;
+    background-color: #ff6a00;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    margin: 0px auto;
+    border-radius: 12px;
+}
+
+#dcar {
+    width: 72px;
+    height: 63px;
+    background-image: url("../img/car.jpg");
+    position: fixed;
+    top: 150px;
+    right: 0px;
+}
+
+.dnum {
+    width: 30px;
+    height: 30px;
+    background-color: #f00;
+    text-align:center;
+    line-height:30px;
+    font-size: 12px;
+    border-radius:100%;
+    color: #fff;
+}

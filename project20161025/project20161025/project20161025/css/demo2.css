@@ -1,0 +1,20 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#d1 {
+    width: 239px;
+    height: 360px;
+    background-image: url("../img/1.jpg");
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    background-repeat: no-repeat;
+}
+
+    #d1:hover {
+        background-image: url("../img/10.jpg");
+        transform: rotate(30deg);
+        transition: all 1s ease;
+    }

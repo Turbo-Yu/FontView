@@ -1,0 +1,29 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#d1 {
+    width: 645px;
+    height: 387px;
+    background-image: url("../img/8.jpg");
+    margin: 100px auto;
+    animation: donghua 20s infinite ease; /*1、动画名称 2、执行一个周期所需时间  3、次数(infinite表示一直播放) 4、形式*/
+}
+
+@keyframes donghua {
+    0% {
+        transform: rotateY(0deg);
+        border:solid 1px #ff0000;
+    }
+
+    50% {
+        transform: rotateY(180deg);
+        border:solid 10px #ff0000;
+    }
+
+    100% {
+        transform: rotateY(360deg);
+        border:solid 20px #ff0000;
+    }
+}

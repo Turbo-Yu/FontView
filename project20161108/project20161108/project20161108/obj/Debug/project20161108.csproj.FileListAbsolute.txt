@@ -1,0 +1,6 @@
+C:\Users\xujun\Desktop\project20161108\project20161108\bin\project20161108.dll.config
+C:\Users\xujun\Desktop\project20161108\project20161108\bin\project20161108.dll
+C:\Users\xujun\Desktop\project20161108\project20161108\bin\project20161108.pdb
+C:\Users\xujun\Desktop\project20161108\project20161108\obj\Debug\project20161108.csprojResolveAssemblyReference.cache
+C:\Users\xujun\Desktop\project20161108\project20161108\obj\Debug\project20161108.dll
+C:\Users\xujun\Desktop\project20161108\project20161108\obj\Debug\project20161108.pdb

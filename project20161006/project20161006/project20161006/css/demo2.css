@@ -1,0 +1,15 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#ig1 {
+    width: 610px;
+    height: 912px;
+    background-image: url("../img/6.jpg");
+}
+
+    #ig1:hover {
+        background-image: url("../img/7.jpg");
+        transition: all 1s ease;
+    }

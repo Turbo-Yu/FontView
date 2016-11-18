@@ -1,0 +1,23 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+    list-style-type: none;
+}
+
+ul {
+    width: 150px;
+    height: 250px;
+    border: dashed 2px #0094ff;
+    line-height:42px;
+}
+li {
+        margin-left:50px;
+}
+#u1 {
+    float: left;
+}
+
+#u2 {
+    float: right;
+}

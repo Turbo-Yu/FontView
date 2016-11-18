@@ -1,0 +1,21 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#d1 {
+    width: 100px;
+    height: 100px;
+    border: solid 2px red;
+    background-color: #1835b5;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+    #d1:hover {
+        transform: rotate(30deg) scale(1.5);
+        background-color: #53a03d;
+        border: solid 10px #a22893;
+        transition: all 1s ease;
+    }

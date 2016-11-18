@@ -1,0 +1,61 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    height: 40px;
+    background-color: #808080;
+    line-height: 40px;
+}
+
+#header-con {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.ig img {
+    width: 100px;
+}
+
+#dmain {
+    width: 100%;
+    background-color: #d5f5ef;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+#main-top {
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px #808080;
+}
+
+#top1 {
+    width: 900px;
+    margin: 0px auto;
+    line-height: 40px;
+    
+}
+
+#dup {
+    float: right;
+}
+
+#main-bottom {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.ig {
+    float: left;
+    margin: 10px 5px;
+}

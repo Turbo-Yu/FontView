@@ -1,0 +1,49 @@
+﻿
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+#dheader {
+    width: 100%;
+    height: 40px;
+    background-color: #808080;
+    line-height: 40px;
+}
+
+    #dheader div {
+        float: right;
+        margin: 0px 10px;
+    }
+
+        #dheader div a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+.loginitem input {
+    width: 350px;
+    height: 40px;
+}
+
+.loginitem a {
+    width: 353px;
+    height: 50px;
+    background-color: #428ab4;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.loginitem {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#dloginbox {
+    display: none;
+}

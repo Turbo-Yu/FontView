@@ -1,0 +1,100 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.poritem {
+    width: 200px;
+    height: 322px;
+    border: solid 1px #ccc;
+    float: left;
+    margin: 0px 5px;
+}
+
+    .poritem div {
+        width: 180px;
+        margin: 0px auto;
+    }
+
+.proprice {
+    text-align: center;
+    color: #f00;
+    font-size: 20px;
+}
+
+.poritem .protitle {
+    margin: 10px auto;
+}
+
+.protitle a {
+    color: #000;
+    font-size: 12px;
+}
+
+.addbtn a {
+    width: 110px;
+    height: 29px;
+    background-color: #ff6a00;
+    display: block;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+    margin: 0px auto;
+    border-radius: 12px;
+}
+
+#drigth {
+    width: 35px;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    right: 0px;
+}
+
+#drightcon {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: 140px;
+    top: 50%;
+    margin-top: -70px;
+}
+
+#dcartitle {
+    width: 14px;
+    font-size: 14px;
+    margin: 10px auto;
+}
+
+#pronum {
+    width: 14px;
+    margin: 0px auto;
+    color: #f00;
+    font-size: 12px;
+}
+
+#msg {
+    width: 0px;
+    height: 50px;
+    background-color: #2f6626;
+    color: #fff;
+    position: fixed;
+    top: 330px;
+    right: 35px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    display: none;
+}
+
+.bg {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}

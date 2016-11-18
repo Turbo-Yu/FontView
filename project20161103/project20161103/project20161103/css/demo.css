@@ -1,0 +1,40 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+#dreg {
+    width: 300px;
+    height: 500px;
+}
+
+.regitem div {
+    float: left;
+}
+
+.regtitle {
+    width: 64px;
+}
+
+.regtext input {
+    width: 210px;
+    height: 30px;
+}
+
+.regitem {
+    margin: 10px;
+    height: 40px;
+}
+
+    .regitem a {
+        width: 50px;
+        height: 35px;
+        background-color: #369b4f;
+        display: block;
+        color: #fff;
+        margin-right: 13px;
+        text-align: center;
+        line-height: 35px;
+        text-decoration: none;
+    }

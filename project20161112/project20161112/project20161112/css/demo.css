@@ -1,0 +1,64 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+#dlunbo {
+    width: 520px;
+    height: 280px;
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    top: 50%;
+    margin-top: -140px;
+}
+
+.ig {
+    position: absolute;
+}
+
+#tabs {
+    position: absolute;
+    top: 230px;
+    left: 360px;
+}
+
+.tab {
+    width: 32px;
+    height: 32px;
+    background-color: #0094ff;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.btn {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    top: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.btn1 {
+    left: 0px;
+}
+
+.btn2 {
+    right: 0px;
+}
+
+#tabs .bg {
+    background-color: rgb(255, 0, 0);
+}

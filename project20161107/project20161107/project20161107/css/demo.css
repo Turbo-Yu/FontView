@@ -1,0 +1,58 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-family: "微软雅黑";
+}
+
+.iitem {
+    width: 100px;
+    height: 429px;
+    float: left;
+    cursor: pointer;
+}
+
+.item1 {
+    background-image: url("../image/1.jpg");
+}
+
+.item2 {
+    background-image: url("../image/2.jpg");
+}
+
+.item3 {
+    background-image: url("../image/3.jpg");
+}
+
+.item4 {
+    background-image: url("../image/4.jpg");
+    width: 789px;
+}
+
+#dpics {
+    height: 429px;
+    width: 1100px;
+}
+
+.txt {
+    width: 100px;
+    height: 429px;
+    background: rgba(0,0,0,0.5);
+}
+
+    .txt p {
+        float: left;
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .txt .p1 {
+        width: 12px;
+        font-size: 12px;
+    }
+
+    .txt .p2 {
+        width: 14px;
+        font-size: 14px;
+    }
