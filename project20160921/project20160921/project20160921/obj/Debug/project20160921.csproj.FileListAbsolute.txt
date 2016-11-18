@@ -1,0 +1,5 @@
+D:\Project\FontView\project20160921\project20160921\project20160921\bin\project20160921.dll.config
+D:\Project\FontView\project20160921\project20160921\project20160921\bin\project20160921.dll
+D:\Project\FontView\project20160921\project20160921\project20160921\bin\project20160921.pdb
+D:\Project\FontView\project20160921\project20160921\project20160921\obj\Debug\project20160921.dll
+D:\Project\FontView\project20160921\project20160921\project20160921\obj\Debug\project20160921.pdb

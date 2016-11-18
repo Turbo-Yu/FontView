@@ -2,7 +2,7 @@
 
 var flakeMin = 5;//雪片最小值
 var flakeMax = 50;//雪片最大值
-var newOn = 300;//雪片间隔多长时间产生一个,，单位是毫秒，如果这个值越小，说明雪下得越大
+var newOn = 30;//雪片间隔多长时间产生一个,，单位是毫秒，如果这个值越小，说明雪下得越大
 
 //每一片雪花就是一个div对象，在jquery里面$("")这样去找对象，如果想对div做定位（自由自在跑），就需要让它
 //脱离文档流，设置定位
@@ -17,7 +17,7 @@ $(function () {
         var flakeSize = flakeMin + flakeMax * Math.random();//雪片的随机大小
         var startFlakeOpacity = 0.7 + 0.3 * Math.random();//雪片刚产生的时候的随机透明度
         var endFlakeOpacity = 0.4 + 0.3 * Math.random();//雪片下落到最下面的时候的随机透明度
-        var durationFall = documentHeight * 10 + 3000 * Math.random();//雪片从最上面到最下面所经历的随机时间
+        var durationFall = documentHeight * 10 + 30 * Math.random();//雪片从最上面到最下面所经历的随机时间
 
         flake.clone().appendTo($("body")).css({
             "font-size": flakeSize,
@@ -34,3 +34,35 @@ $(function () {
         });
     }, newOn);
 });
+
+//var flakeMin = 5;
+//var flakeMax = 50;
+//var newOn = 300;
+
+//var flake = $("<div></div>").css("position", "absolute").html("❄");
+
+//$(function () {
+//    var documentWidth = $(document).width();
+//    var documentHeight = $(document).height();
+//    setInterval(function () {
+//        var startPositionLeft = Math.random() * documentWidth;
+//        var endPositionLeft = Math.random() * documentWidth;
+//        var startFlakeOpacity = 0.7 + 0.3 * Math.random();//雪片刚产生的时候的随机透明度
+//        var endFlakeOpacity = 0.4 + 0.3 * Math.random();//雪片下落到最下面的时候的随机透明度
+//        var durationFall = documentHeight * 10 + 3000 * Math.random();//雪片从最上面到最下面所经历的随机时间
+
+//        flake.clone().append($("body")).css({
+//            "font-size": flakeSize,
+//            "opacity": startFlakeOpacity,
+//            "left": startPositionLeft,
+//            "color": "red",
+//            "top": "-50px"
+//        }).animate({
+//            "opacity": endFlakeOpacity,
+//            "left": endPositionLeft,
+//            "top": documentHeight
+//        }, durationFall, function () {
+//            $(this).remove();
+//        });
+//    }, newOn);
+//});
