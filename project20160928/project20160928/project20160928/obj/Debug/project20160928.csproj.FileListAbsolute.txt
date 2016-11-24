@@ -4,3 +4,9 @@ C:\Users\xujun\Desktop\project20160928\project20160928\bin\project20160928.pdb
 C:\Users\xujun\Desktop\project20160928\project20160928\obj\Debug\project20160928.csprojResolveAssemblyReference.cache
 C:\Users\xujun\Desktop\project20160928\project20160928\obj\Debug\project20160928.dll
 C:\Users\xujun\Desktop\project20160928\project20160928\obj\Debug\project20160928.pdb
+D:\Project\FontView\project20160928\project20160928\project20160928\bin\project20160928.dll.config
+D:\Project\FontView\project20160928\project20160928\project20160928\bin\project20160928.dll
+D:\Project\FontView\project20160928\project20160928\project20160928\bin\project20160928.pdb
+D:\Project\FontView\project20160928\project20160928\project20160928\obj\Debug\project20160928.csprojResolveAssemblyReference.cache
+D:\Project\FontView\project20160928\project20160928\project20160928\obj\Debug\project20160928.dll
+D:\Project\FontView\project20160928\project20160928\project20160928\obj\Debug\project20160928.pdb

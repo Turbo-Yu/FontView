@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\main.css" />
     <Content Include="Handler1.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -68,7 +70,9 @@
   <ItemGroup>
     <Content Include="css\demo.css" />
     <Content Include="demo.html" />
+    <Content Include="Index.html" />
     <Content Include="js\demo.js" />
+    <Content Include="js\index.js" />
     <Content Include="js\jquery-1.10.2.min.js" />
     <Content Include="layer\layer.js" />
     <Content Include="layer\skin\default\icon-ext.png" />
