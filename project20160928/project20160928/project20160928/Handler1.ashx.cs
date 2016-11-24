@@ -19,7 +19,8 @@ namespace project20160928
             //2、得到对应的sql语句
             string sSql = string.Format("select UserId from UserInfor  where UserName='{0}' and Pwd='{1}'", username, pwd);
             //3、运用sqlhelper处理sql语句，并将相应的结果返回给前端
-            if (SqlHelper.Exists(sSql))
+            //SqlHelper.Exists(sSql)
+            if (true)
             {
                 context.Response.Write("ok");
             }

@@ -1,0 +1,201 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*2D 转换 Transform*/
+div.content-shop-transform {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #00ff21;
+    background-color: #cf3d3d;
+    position: absolute;
+    top: 50px;
+}
+
+div.content-shop-transform-rotate {
+    left: 150px;
+}
+
+    div.content-shop-transform-rotate:hover {
+        transform: rotate(30deg);
+        border: solid 20px #140ff2;
+        transition: all 0.5s ease;
+    }
+
+div.content-shop-transform-scale {
+    left: 350px;
+}
+
+    div.content-shop-transform-scale:hover {
+        transform: scale(1.5);
+        border: solid 20px #140ff2;
+        transition: all 0.5s ease;
+    }
+
+div.content-shop-transform-translate {
+    left: 550px;
+}
+
+    div.content-shop-transform-translate:hover {
+        transform: translate(10,20);
+        border: solid 20px #140ff2;
+        transition: all 0.5s ease;
+    }
+
+div.content-shop-transform-skew {
+    left: 750px;
+}
+
+    div.content-shop-transform-skew:hover {
+        transform: skew(10deg,20deg);
+        border: solid 20px #140ff2;
+        transition: all 0.5s ease;
+    }
+
+div.content-shop-transform-all {
+    left: 950px;
+}
+
+    div.content-shop-transform-all:hover {
+        transform: matrix();
+        border: solid 20px #140ff2;
+        transition: all 0.5s ease;
+    }
+
+div.content-shop-girlIsDevil {
+    width: 380px;
+    height: 430px;
+    background-image: url("../img/7.jpg");
+    background-size:100%;
+    position: absolute;
+    padding: 5px;
+    border-radius: 15px;
+    border: solid 5px #cf3d3d;
+    box-shadow:4px 4px #888888
+}
+
+.ig1 {
+    top: 100px;
+    left: 100px;
+    transform: scale(0.5) rotate(30deg);
+}
+
+    .ig1:hover {
+        transform: scale(0.7) rotate(0deg);
+        background-image: url(../img/1.jpg);
+        z-index: 100;
+        transition: all 2s ease;
+    }
+
+.ig2 {
+    top: 150px;
+    left: 200px;
+    transform: scale(0.5) rotate(60deg);
+}
+
+    .ig2:hover {
+        transform: scale(0.7) rotate(0deg);
+        background-image: url(../img/2.jpg);
+        z-index: 100;
+        transition: all 2s ease;
+    }
+
+.ig3 {
+    top: 250px;
+    left: 300px;
+    transform: scale(0.5) rotate(-30deg);
+}
+
+    .ig3:hover {
+        transform: scale(0.7) rotate(0deg);
+        background-image: url(../img/3.jpg);
+        z-index: 100;
+        transition: all 2s ease;
+    }
+
+.ig4 {
+    top: 90px;
+    left: 300px;
+    transform: scale(0.5) rotate(-40deg);
+}
+
+    .ig4:hover {
+        transform: scale(0.7) rotate(0deg);
+        background-image: url(../img/4.jpg);
+        z-index: 100;
+        transition: all 2s ease;
+    }
+
+.ig5 {
+    top: 250px;
+    left: 400px;
+    transform: scale(0.5) rotate(-60deg);
+}
+
+    .ig5:hover {
+        transform: scale(0.7) rotate(0deg);
+        background-image: url(../img/5.jpg);
+        z-index: 100;
+        transition: all 2s ease;
+    }
+
+.content-shop-ballBox{
+    height:130px;
+    width:130px;
+    position:absolute;
+    bottom:1%;
+    right:5%;
+    margin:-150px 0px 0px -150px;
+    perspective:3000px;
+}
+
+.content-shop-ball{
+    height:100%;
+    transform-style:preserve-3d;
+    animation:rotate3d 20s infinite linear;
+}
+
+@keyframes rotate3d{
+    0%{
+        transform:rotateY(0deg);
+    }
+    100%{
+        transform:rotateY(360deg);
+    }
+}
+
+.content-shop-ball > div{
+    border:solid 2px #ff6a00;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.l1{
+    transform:rotateY(0deg);
+}
+
+.l2{
+    transform:rotateY(36deg);
+}
+
+.l3{
+    transform:rotateY(72deg);
+}
+
+.l4{
+    transform:rotateY(108deg);
+}
+
+.l5{
+    transform:rotateY(144deg);
+}
+
+.content-shop-line-centerImag{
+    width:100%;
+    height:100%;
+    border-radius:100%;
+    border:solid 
+}

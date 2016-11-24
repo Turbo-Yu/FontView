@@ -1,55 +1,57 @@
-﻿  body {
-            background-color: #000;
-        }
-        .ball-box {
-            height: 300px;
-            width: 300px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin: -150px 0px 0px -150px;
-            perspective: 3000px;/*透镜*/
-        }
-        .ball {
-            height: 100%;
-            transform-style: preserve-3d;
-            animation: rotate3d 20s infinite linear;
-        }
+﻿body {
+    background-color: #000;
+}
 
-        @-webkit-keyframes rotate3d {
-            0% {
-                transform: rotateY(0deg);
-            }
+.ball-box {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0px 0px -150px;
+    perspective: 3000px; /*透镜*/
+}
 
-            100% {
-                transform: rotateY(360deg);
-            }
-        }
+.ball {
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate3d 20s infinite linear;
+}
 
-        .ball > div {
-            border: solid 2px #fff;
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            border-radius: 100%;
-        }
+@-webkit-keyframes rotate3d {
+    0% {
+        transform: rotateY(0deg);
+    }
 
-        .line-1 {
-            transform: rotateY(0deg);
-        }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
 
-        .line-2 {
-            transform: rotateY(36deg);
-        }
+.ball > div {
+    border: solid 2px #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 100%;
+}
 
-        .line-3 {
-            transform: rotateY(72deg);
-        }
+.line-1 {
+    transform: rotateY(0deg);
+}
 
-        .line-4 {
-            transform: rotateY(108deg);
-        }
+.line-2 {
+    transform: rotateY(36deg);
+}
 
-        .line-5 {
-            transform: rotateY(144deg);
-        }
+.line-3 {
+    transform: rotateY(72deg);
+}
+
+.line-4 {
+    transform: rotateY(108deg);
+}
+
+.line-5 {
+    transform: rotateY(144deg);
+}
